@@ -58,6 +58,8 @@
     font-size: 1.8rem;
     color: var(--gold);
     letter-spacing: 0.02em;
+    margin: 0;
+    font-weight: normal;
   }
   .logo span { font-style: italic; color: var(--gold-lt); }
 
