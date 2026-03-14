@@ -1,24 +1,24 @@
-# Bubblewrap / Android build outputs
-app/build/
-build/
-.gradle/
-gradle/wrapper/gradle-wrapper.jar
-local.properties
-
-# Signing keys - NEVER commit these
+# Keystore - NEVER commit this
+android.keystore
 *.keystore
 *.jks
 
-# Generated APK / AAB
-*.apk
-*.aab
+# Bubblewrap build output
+app/build/
+build/
+
+# Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
 
 # VS Code
 .vscode/
 
 # OS
-.DS_Store
 Thumbs.db
+.DS_Store
 
 # Node
 node_modules/
+
+meta/
