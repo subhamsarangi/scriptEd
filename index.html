@@ -32,14 +32,15 @@
 <meta name="apple-mobile-web-app-title" content="Akshara" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Oriya:wght@400;700&family=DM+Serif+Display:ital@0;1&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-<script src="./jquery.min.js"></script>
+<script src="./jquery.min.js" defer></script>
+<script src="./main.js" defer></script>
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
 <header>
   <div style="display:flex; align-items:center; gap:12px;">
-    <img src="./icons/icon-512.png" alt="Akshara logo" style="height:40px; width:40px;" />
+    <img src="https://cdn.openworldregister.com/scripts/odia/logo.png" alt="Akshara logo" style="height:40px; width:40px;" onerror="this.onerror=null; this.src='./icons/icon-512.png'" />
     <div>
       <h1 class="logo">Akshara <span>ଅକ୍ଷର</span></h1>
       <div class="logo-sub">Learn Odia Script</div>
@@ -238,8 +239,6 @@
   <span>Made by <a href="https://github.com/subhamsarangi" target="_blank" rel="noopener">Subham Sarangi</a></span>
 </footer>
 
-<script src="./main.js"></script>
- 
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {

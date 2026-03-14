@@ -1,4 +1,4 @@
-const CACHE_NAME = 'akshara-v1';
+const CACHE_NAME = 'akshara-v2';
 
 const ASSETS = [
   './',
